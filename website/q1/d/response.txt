@@ -1,0 +1,1 @@
+deadbeef'; INSERT INTO users (username,password,confirm,active)VALUES ('Caleb','eabcd7e10b43f49aaa8531fe902b2a1af0d0cddb','cccc',1);INSERT INTO perms (name, can_admin, can_vote,can_link,can_comment,can_article,can_file) VALUES ('Caleb',1,1,1,1,1,1);INSERT INTO ref (id_perm, id_user) VALUES(9,10);

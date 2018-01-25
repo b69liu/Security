@@ -1,0 +1,7 @@
+                <form action="post.php" method="POST">
+                <textarea hidden rows="4" cols="50" name="comment">what you think</textarea>
+            <input type="hidden" name="form" value="comment" />
+            <input type="hidden" name="parent" value="2" />
+            <input type="hidden" name="uid" value="7" />
+</form>
+<a href="javascript:document.forms[0].submit();">Test</a>

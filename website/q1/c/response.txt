@@ -1,0 +1,60 @@
+<html>
+<head>
+  <title>CS458 - Content Sharing Portal</title>
+  <style>
+    body {
+      padding: 20px;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 12px;
+    }
+
+    a, a:visited, a:active {
+      text-decoration: none;
+      color: #0000FF;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    li {
+      line-height: 1.5em;
+    }
+
+    a img {
+      border: 0;
+    }
+  </style>
+  <!-- TODO Fix build scripts to exclude the php files ending with ~ characters, e.g. index.php~.
+       Not sure where they're coming from, but I'm pretty sure we don't want them there. -->
+</head>
+
+<body>
+<h1><a href="index.php">CS458 - Content Sharing Portal</a></h1>
+<hr/>
+<center>
+  Welcome, nnasresfahani! (<a href="logout.php">Logout</a>)
+          | <a href="content.php">make a new posting</a>
+    </center>
+<hr/>
+<h2><a href="view.php?id=1">CS458 Syllabus</a></h2><hr />
+<small>posted by uhengartner on Fri, 07 Oct 2016 16:33:15 -0400</small><br /><br />https://crysp.uwaterloo.ca/courses/cs458/F16-material/F16-syllabus.html<br /><br /><a href="view.php?id=1">0 Comments</a> | <a href="vote.php?id=1&vote=1">4 Upvotes</a> | <a href="vote.php?id=1&vote=-1">0 Downvotes</a><hr />
+<h2><a href="view.php?id=2">How to use submit</a></h2><hr />
+<small>posted by sroos on Fri, 07 Oct 2016 16:38:15 -0400</small><br /><br />All assignment submission takes place on the student.cs machines (not on the ugster machines or the UML virtual environments), using the submit utility. In particular, use SSH to log in to the Linux student environment (linux.student.cs.uwaterloo.ca), go to the directory that contains your solution, and submit using the following command: submit cs458 n . (dot included) where n is the number of the assignment (n=1, 2 or 3). CS 658 students should also use this command and ignore the warning message. Assignments submitted by other means will not be accepted. You should make sure early on that the submit command works for you.<br /><br />You should check whether your submitted files correspond to the ones that you intend to submit using the "-print" option of the submit command.<br /><br />For any PDF file that you are asked to submit, make sure that your file contains your name, uWaterloo userid, and student number at the top of the first page.<br /><br />When asked to submit a PDF file, make sure that your file is readable with the gv program available in the Linux student environment. In particular, make sure that your PDF does not contain any non-standard fonts or if so make sure that these fonts are embedded.<br /><br />When asked to submit a tar/zip file, untar/unzip the file in an empty directory before submission. Ensure that all required files are included in your tar/zip file and that there are no symbolic links.<br /><br />When asked to submit a Makefile with a "make run" target, remember that this target needs to do everything it needs to in order to run your program. Note that when you submit files using the submit command, they lose their executable permissions. So if you submitted, say, a python program kanon.py, when we get it, it will not be executable.<br /><br /><a href="view.php?id=2">2 Comments</a> | <a href="vote.php?id=2&vote=1">1 Upvote</a> | <a href="vote.php?id=2&vote=-1">1 Downvote</a><hr />
+<h2><a href="view.php?id=3">I love the bluejays, they are so awesome! Go bluejays!</a></h2><hr />
+<small>posted by nnasresfahani on Fri, 07 Oct 2016 16:48:15 -0400</small><br /><br /><a href="http://toronto.bluejays.mlb.com">http://toronto.bluejays.mlb.com</a><br /><br /><a href="view.php?id=3">1 Comment</a> | <a href="vote.php?id=3&vote=1">1 Upvote</a> | <a href="vote.php?id=3&vote=-1">0 Downvotes</a><hr />
+<h2><a href="view.php?id=7">confirming accounts?</a></h2><hr />
+<small>posted by bob on Fri, 07 Oct 2016 17:33:20 -0400</small><br /><br />I had some weird issues logging initially, with it saying that my account wasn't confirmed.<br /><br />I eventually solved this by going to the url confirm.php?hash=xxxxxxxx , where xxxxxxxx is some kind of gibberish. It looks like <a href="http://en.wikipedia.org/wiki/Hexspeak" target="_blank">hex characters</a> or some other form of <a href="https://en.wikipedia.org/wiki/Binary-to-text_encoding#Encoding_plain_text" target="_blank">encoding</a>.<br /><br />Either way, I can log in now :)<br /><br /><a href="view.php?id=7">0 Comments</a> | <a href="vote.php?id=7&vote=1">1 Upvote</a> | <a href="vote.php?id=7&vote=-1">0 Downvotes</a><hr />
+<h2><a href="view.php?id=8">Does anyone think this is a good idea?</a></h2><hr />
+<small>posted by cbocovic on Fri, 07 Oct 2016 16:29:55 -0400</small><br /><br /><a href="https://moz.com/learn/seo/robotstxt">https://moz.com/learn/seo/robotstxt</a><br /><br /><a href="view.php?id=8">0 Comments</a> | <a href="vote.php?id=8&vote=1">4 Upvotes</a> | <a href="vote.php?id=8&vote=-1">0 Downvotes</a><hr />
+<h2><a href="view.php?id=9">q1b</a></h2><hr />
+<small>posted by uhengartner on Fri, 03 Nov 2017 21:22:32 -0400</small><br /><br />q1bbb<br /><br /><a href="view.php?id=9">0 Comments</a> | <a href="vote.php?id=9&vote=1">0 Upvotes</a> | <a href="vote.php?id=9&vote=-1">0 Downvotes</a><hr />
+<hr/>
+<center>
+  <small>Last modified recently</small>
+</center>
+
+</body>
+</html>
+username:nnasresfahani
+password:nnasresfahani
